@@ -1,0 +1,6 @@
+serial
+parallel
+build/
+output/
+*.o
+__pycache__/

@@ -1,0 +1,7 @@
+mode,image,filter,width,height,threads,schedule,time_s,speedup,efficiency,correct
+serial,synthetic,blur,16384,16384,1,-,5.049464,1.00,1.00,-
+parallel,synthetic,blur,16384,16384,8,static,1.271779,3.97,0.50,yes
+serial,synthetic,gaussian5,4096,4096,1,-,0.732765,1.00,1.00,-
+parallel,synthetic,gaussian5,4096,4096,8,static,0.141174,5.19,0.65,yes
+parallel,synthetic,gaussian5,4096,4096,1,static,0.673828,1.09,1.09,yes
+parallel,synthetic,gaussian5,4096,4096,8,dynamic,0.151889,4.82,0.60,yes
